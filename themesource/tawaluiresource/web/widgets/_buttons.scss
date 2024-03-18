@@ -1,0 +1,135 @@
+.tawal-btn-primary {
+  min-width: 130px;
+  max-width: fit-content;
+  height: 40px;
+
+  margin: 0 8px 0 8px !important;
+  background: #fc4c02 !important;
+  color: #ffffff !important;
+}
+
+.tawal-btn-primary:hover,
+.tawal-btn-primary:focus,
+.tawal-btn-primary:active {
+  background: #fc4c02 !important;
+  color: #ffffff !important;
+}
+.tawal-btn-primary-icon {
+  min-width: 130px;
+  max-width: fit-content;
+  height: 40px;
+
+  margin: 0 8px 0 8px !important;
+  background: #fc4c02 !important;
+  color: #ffffff !important;
+  display: flex;
+  justify-content: center;
+}
+
+.tawal-btn-primary-icon:hover,
+.tawal-btn-primary-icon:focus,
+.tawal-btn-primary-icon:active {
+  background: #fc4c02 !important;
+  color: #ffffff !important;
+}
+
+.tawal-btn-secondary {
+  min-width: fit-content;
+  max-width: fit-content;
+  height: 40px;
+  padding: 9px 24px;
+  margin: 0 8px 0 8px;
+  background: #fff;
+  color: #253746;
+}
+
+.tawal-btn-secondary:hover,
+.tawal-btn-secondary:focus,
+.tawal-btn-secondary:active {
+  background: #fff;
+  color: #253746;
+}
+
+.tawal-btn-grey {
+  min-width: 91px;
+  max-width: fit-content;
+  height: 40px;
+  padding: 6px 16px;
+  margin: 0 8px 0 8px;
+  background: #253746;
+  color: #ffffff;
+}
+
+.tawal-btn-grey:hover,
+.tawal-btn-grey:focus,
+.tawal-btn-grey:active {
+  background: #253746;
+  color: #ffffff;
+}
+
+.tawal-btn-borderless,
+.tawal-btn-borderless:hover,
+.tawal-btn-borderless:active,
+.tawal-btn-borderless:focus {
+  min-width: fit-content;
+  max-width: fit-content;
+  height: 40px;
+  background: transparent;
+  border: none;
+  color: #606f8a;
+}
+
+.tawal-btn-white {
+  min-width: fit-content;
+  max-width: fit-content;
+  height: 40px;
+
+  margin: 0 8px 0 8px !important;
+  background: #fff !important;
+  color: #253746 !important;
+}
+
+.tawal-btn-white:hover,
+.tawal-btn-white:focus,
+.tawal-btn-white:active {
+  background: #fff !important;
+  color: #253746 !important;
+}
+
+.tawal-btn-simple {
+  height: 32px;
+  width: max-content;
+  display: flex;
+}
+
+.page-head-btns {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  .btn {
+    height: 29px;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+
+    color: #253746;
+    font-size: 12px;
+    gap: 4px;
+  }
+  .btn img,
+  .mx-button img,
+  .mx-link img {
+    margin-right: 0px;
+    width: 14px;
+  }
+  .btn:hover,
+  .btn:focus,
+  .btn:active,
+  .btn.active,
+  .btn-default:hover,
+  .btn-default:focus,
+  .btn-default:active {
+    background: #fff;
+    color: #253746;
+  }
+}

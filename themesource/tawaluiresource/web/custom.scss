@@ -1,0 +1,245 @@
+.error-message {
+  background-color: #fff5f5;
+  color: #ff4d4f;
+  box-shadow: 0px 2px 14px 0px #0000000f;
+  border-radius: 4px;
+}
+
+/*--------------Custom File Droper------------------*/
+.card-attachment {
+  .filedropper__dropzone {
+    border: none;
+    font-size: 0;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+    height: 62%;
+
+    z-index: 1;
+  }
+  .filedropper__list {
+    padding: 0;
+    position: absolute;
+    left: 0;
+    top: 200px;
+  }
+  .filedropper__item {
+    padding-right: 0px;
+  }
+  //   .filedropper__button-zone__button {
+  //     display: none;
+  //   }
+  .filedropper__preview {
+    display: none;
+  }
+  .filedropper__item-filesize__label {
+    display: none;
+  }
+  .filedropper__item-progress {
+    display: flex;
+  }
+  .filedropper__dropzone--dialog {
+    background: transparent;
+  }
+  .filedropper__alerts {
+    position: absolute;
+    left: 0;
+    top: 207px;
+    .alert-warning {
+      color: #ff4d4f;
+      background-color: transparent;
+      border: none;
+      margin-top: 0px;
+      padding-top: 0px;
+      padding-left: 0px;
+      font-size: 12px;
+      white-space: pre;
+      button.close {
+        position: relative;
+        left: 12px;
+        // display: none;
+      }
+    }
+  }
+  .filedropper__dropzone--disabled {
+    background: transparent;
+  }
+  .filedropper__list .filedropper__item {
+    display: none;
+  }
+  .filedropper__list li .filedropper__item-info {
+    display: none;
+  }
+
+  .mx-listview > ul > li:last-child {
+    border-bottom: 1px solid #dfe0eb;
+    border: none;
+    padding: 0;
+  }
+  .del-btn {
+    font-weight: 500 !important;
+  }
+}
+
+.custom-has-error {
+  border: 1px solid #ff4d4f !important;
+}
+/*--------------Custom File Droper Ends------------------*/
+.custom-tooltip-widget {
+  .mx-link {
+    position: absolute !important;
+    top: 6px !important;
+    left: 44px !important;
+  }
+  .btn img,
+  .mx-button img,
+  .mx-link img {
+    height: 13px;
+  }
+}
+.widget-accordion
+  .widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button
+  > :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .widget-timeline-title,
+    .widget-eventTime,
+    h6,
+    p,
+    span
+  ) {
+  color: #606f8a;
+  font-size: 16px;
+  font-weight: 400;
+}
+.widget-accordion
+  .widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:hover {
+  background: #fff;
+}
+.widget-accordion
+  .widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:hover
+  > :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .widget-timeline-title,
+    .widget-eventTime,
+    h6,
+    p,
+    span
+  ) {
+  color: #606f8a;
+}
+.widget-accordion
+  .widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:hover
+  .widget-accordion-group-header-button-icon {
+  fill: #606f8a;
+}
+.widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:active {
+  background: #fff !important;
+}
+.widget-accordion
+  .widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:active
+  > :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .widget-timeline-title,
+    .widget-eventTime,
+    h6,
+    p,
+    span
+  ) {
+  color: #606f8a !important;
+}
+.widget-accordion
+  .widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:active
+  .widget-accordion-group-header-button-icon {
+  fill: #606f8a !important;
+}
+.widget-accordion
+  .widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:focus {
+  background: #fff;
+}
+.widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:focus
+  > :is(
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .widget-timeline-title,
+    .widget-eventTime,
+    h6,
+    p,
+    span
+  ) {
+  color: #606f8a !important;
+}
+.widget-accordion
+  .widget-accordion-group
+  > .widget-accordion-group-header
+  > .widget-accordion-group-header-button.widget-accordion-group-header-button-clickable:focus
+  .widget-accordion-group-header-button-icon {
+  fill: #606f8a;
+}
+
+/*--------------Temp/R&d------------------*/
+.region-sidebar .mx-navigationtree li.mx-navigationtree-has-items > ul li a {
+  color: #000;
+}
+
+.region-sidebar
+  .mx-navigationtree
+  li.mx-navigationtree-has-items
+  > ul
+  li
+  a:hover {
+  color: #000;
+}
+
+.test1 {
+  .BusinessCapabilities.SLAConfiguration_Overview.dropDown3_kjt_32 option {
+    border-bottom: 1px solid red !important;
+    color: red !important;
+  }
+}
+// .dropdown-stage {
+//   option:nth-child(2) {
+//     background-color: red;
+//     border: 5px solid black;
+//   }
+//   option:nth-child(3) {
+//     box-shadow: #606f8a;
+//   }
+// }
+
+// .dropdown-stage option:nth-child(2):checked {
+//   border: 5px solid black; /* Apply border to the selected second option */
+// }
+/*--------------Temp Ends------------------*/

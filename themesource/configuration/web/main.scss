@@ -1,0 +1,165 @@
+@import '../../../theme/web/custom-variables';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+
+// TEST Styling
+
+/* Configuration Pages */
+.configuration-pages {
+    font-family: 'Inter', sans-serif;
+}
+
+.configuration-pages {
+
+    .card-attachment {
+        padding: 0;
+        margin: 0;
+     .attachment-area {
+        margin: 0;
+        }
+    }
+}
+
+.configuration-pages .label1{
+    margin-bottom: 1rem;
+}
+
+/* Payment Group Master - Manual Upload - Date Picker */
+.datepicker-custom .mx-compound-control .btn mx-button {
+    margin-left: 0 !important;
+}
+
+.datepicker-custom .mx-compound-control .btn {
+    margin-left: 0;
+    border-left: none;
+    border-start-start-radius: 0px;
+    border-end-start-radius: 0px;
+}
+
+.datepicker-custom .form-control {
+    border-right: none;
+    border-start-end-radius: 0px;
+    border-end-end-radius: 0px;
+}
+
+.datepicker-custom .mx-icon-filled.mx-icon-calendar::before {
+    color: gray;
+}
+
+/* Payment Group Master - Manual Upload - Back Button */
+.payment-group-back-btn-container {
+    padding-top: 17px;
+    padding-left: 19px;
+}
+
+.payment-group-back-btn-container .mx-link {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.payment-group-back-btn-container .mx-icon-lined.mx-icon-arrow-left::before {
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 13px;
+}
+
+
+/* Payment Group, Expense Master overview page create button */
+
+.create-new-btn {
+    color: #FFFFFF;
+    background-color: #FC4C02;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 12px;
+}
+
+.create-new-btn .mx-icon-lined {
+    margin-right: 0.5rem;
+    font-weight: 500;
+}
+
+.create-new-btn:hover {
+    color: #FC4C02;
+    background-color: #FFF;
+    font-weight: 600;
+}
+
+/* Expenses overview utility bar container */
+.expenses-overview-filterbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    // margin-bottom: 2.5rem;
+    margin-left: 2.3rem;
+    margin-right: 1.7rem;
+    background-color: #FFFFFF;
+    border-color: #dfe0eb;
+    border-width: 0;
+    // padding-left: 1rem;
+    // padding-right: 1rem;
+    // padding-top: 12px;
+    // padding-bottom: 12px;
+    padding: 12px 1rem 12px 1rem;
+}
+
+.filter-btn {
+    color: #253746;
+    font-size: 14px;
+}
+
+.filter-btn .mx-icon-filled {
+    padding-right: 4px;
+    font-size: 1.5rem;
+}
+
+
+/* File Dropper */
+.filedropper__list {
+    top: 220px !important;
+    font-size: 12px;
+}
+
+.filedropper__list .filedropper__item {
+    padding: 0.5em;
+}
+
+.filedropper__list li{
+    width: 400px;
+    display: inline-flex;
+    height: 4.2rem;
+    border: 0.5px solid green;
+    border-radius: 5px;
+    background-color: #FFF;
+
+    .filedropper__item {
+        display: flex;
+        align-items: center;
+    }
+    .filedropper__item-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        bottom: 1.3em;
+    }
+}
+
+.filedropper__button-zone i::before {
+    padding: 0.6rem 0.75rem;
+    border-radius: 100%;
+    font-size: 12px;
+    background-color: #FFF3F3;
+    color: #D64564;
+    position: relative;
+    bottom: 4px;
+    right: 4px;
+}

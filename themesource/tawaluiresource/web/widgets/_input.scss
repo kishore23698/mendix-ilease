@@ -1,0 +1,150 @@
+label {
+  color: #606f8a;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.form-group .control-label {
+  color: #606f8a;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+.required label.control-label::after {
+  content: " *";
+  color: #dc3545;
+}
+.requiredText::after {
+  content: " *"; /* Adding the asterisk */
+  color: #dc3545; /* Setting the color to red (#dc3545) */
+}
+
+/*------------link-------------*/
+.link-blue .mx-link {
+  color: #007aff;
+  text-decoration: none;
+}
+/*------------link Ends-------------*/
+
+/*------------Reftrence selector/Dropdown -------------*/
+.form-control:not([readonly]):focus,
+.form-control:not([readonly]):focus-within {
+  border-color: #253746;
+}
+select.form-control {
+  border-radius: 2px;
+  border: 1px solid #dae0e7;
+  background: #fff;
+  height: 40px;
+}
+
+.has-error .form-control {
+  border-radius: 2px;
+  border: 1px solid #ff4d4f;
+  background: #fff5f5;
+}
+
+.has-error .mx-validation-message {
+  color: #ff4d4f;
+  background-color: #fff;
+  border: none;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  font-size: 12px;
+  white-space: break-spaces;
+  line-height: normal;
+}
+
+/*------------Reftrence selector/Dropdown Ends-------------*/
+
+/*------------Radio Btn-------------*/
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
+
+input[type="radio"]:checked:before {
+  border-color: #253746 !important;
+  background-color: #fff !important;
+}
+
+input[type="radio"]:before {
+  border: 1.5px solid #253746 !important;
+}
+
+input[type="radio"]:after {
+  background-color: #253746 !important;
+}
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline-offset: -6px;
+}
+
+input[type="checkbox"]:focus {
+  outline-offset: unset;
+}
+
+input[type="checkbox"]:focus {
+  outline: none;
+}
+/*------------Radio Ends-------------*/
+
+/*------------Checkbox -------------*/
+
+input[type="checkbox"]:checked:before {
+  border-color: #3f7af9 !important;
+  background-color: #3f7af9 !important;
+}
+/*------------Checkbox Ends-------------*/
+
+/*------------Dropdowns-------------*/
+.custom-dropdown {
+  select {
+    border: none !important;
+    background: transparent !important;
+    padding: 0;
+    font-size: 12px;
+    margin-left: -8px;
+  }
+}
+
+.css-d7l1ni-option {
+  cursor: default;
+
+  background-color: #dff9fb;
+  border: 1px solid #3f7af9;
+}
+
+.css-3jwf33-control {
+  background-color: #dae0e7;
+}
+
+.css-1jqq78o-placeholder {
+  margin-left: 11px !important;
+}
+.css-1p3m7a8-multiValue {
+  margin-left: 10px;
+}
+/*------------Dropdowns Ends-------------*/
+
+/*------------Accordion-------------*/
+
+.widget-accordion .widget-accordion-group {
+  border: none;
+}
+/*------------Accordion Ends-------------*/
+.custom-calendar {
+  .mx-icon-filled {
+    color: transparent !important;
+    background-image: url("/img/iLeaseUIResource$Image_collection$calendar.svg?638442831291858706");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .btn-default {
+    background-color: transparent;
+  }
+}

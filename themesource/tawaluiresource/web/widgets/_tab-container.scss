@@ -1,0 +1,132 @@
+.custom-Tab {
+  background: #ffffff !important;
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  padding: 20px !important;
+  overflow-x: auto;
+  white-space: nowrap;
+
+  li.active {
+    border-style: solid !important;
+    border-color: #253746 !important;
+    border-width: 0 0 3px 0 !important;
+  }
+
+  li.active > a {
+    border: none !important;
+  }
+  a:focus {
+    outline: none;
+  }
+  a:focus {
+    outline: none;
+    outline-offset: none;
+  }
+  .nav-tabs > li > a {
+    border: none;
+  }
+  ul {
+    border: none;
+  }
+  li > a:hover,
+  li > a:focus {
+    background-color: transparent !important;
+  }
+}
+
+.page-head-tab {
+  background: #ffffff !important;
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+
+  padding: 20px 20px 0 20px !important;
+
+  li.active {
+    border-style: solid !important;
+    border-color: #253746 !important;
+    border-width: 0 0 3px 0 !important;
+  }
+
+  li.active > a {
+    border: none !important;
+  }
+  a:focus {
+    outline: none;
+  }
+  a:focus {
+    outline: none;
+    outline-offset: none;
+  }
+  .nav-tabs > li > a {
+    border: none;
+  }
+
+  > ul {
+    margin-bottom: 1px !important;
+    display: flex;
+    border: none;
+  }
+}
+
+.tab-divider {
+  background: #f0f2f5;
+  width: 105%;
+  height: 24px;
+  margin-left: -25px;
+}
+
+.tab-like-btn {
+  background: #ffffff !important;
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
+  padding: 20px 20px 0 32px !important;
+
+  gap: 15px;
+  color: #8b93a2;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.tab-like-btn .mx-text {
+  padding: 10px;
+  white-space: nowrap;
+  // margin-right: 15px;
+}
+
+.tab-like-btn .tab-active {
+  border-style: solid !important;
+  border-color: #253746 !important;
+  border-width: 0 0 1.5px 0 !important;
+  color: #253746;
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 768px) {
+  .tab-like-btn {
+    padding: 15px 15px 0 20px !important;
+    font-size: 12px;
+    gap: 10px;
+  }
+}
+/* Media Query for Mobile Screens */
+@media screen and (max-width: 480px) {
+  .tab-like-btn {
+    padding: 10px 10px 0 15px !important;
+    font-size: 10px;
+    gap: 5px;
+  }
+}
+
+.scroll-on-overflow {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.scroll-on-overflow-element {
+  white-space: nowrap;
+}

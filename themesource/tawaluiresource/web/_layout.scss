@@ -1,0 +1,132 @@
+@import "../../../theme/web/custom-variables";
+/*-------------Master Layout-----------------*/
+
+/*-------Top Bar-------*/
+
+/*-------Top Bar Ends-------*/
+
+/*---Sidebar Nav---*/
+
+.layout-atlas-responsive
+  .mx-scrollcontainer-shrink:not(.mx-scrollcontainer-open)
+  > .region-sidebar,
+.layout-atlas-responsive
+  .mx-scrollcontainer-push:not(.mx-scrollcontainer-open)
+  > .region-sidebar,
+.layout-atlas-responsive
+  .mx-scrollcontainer-slide:not(.mx-scrollcontainer-open)
+  > .region-sidebar,
+.layout-atlas-responsive-default
+  .mx-scrollcontainer-shrink:not(.mx-scrollcontainer-open)
+  > .region-sidebar,
+.layout-atlas-responsive-default
+  .mx-scrollcontainer-push:not(.mx-scrollcontainer-open)
+  > .region-sidebar,
+.layout-atlas-responsive-default
+  .mx-scrollcontainer-slide:not(.mx-scrollcontainer-open)
+  > .region-sidebar {
+  width: 94px !important;
+}
+.layout-atlas-responsive
+  .region-sidebar
+  .mx-scrollcontainer-wrapper
+  .mx-navigationtree
+  .navbar-inner
+  > ul
+  > li
+  > a,
+.layout-atlas-responsive-default
+  .region-sidebar
+  .mx-scrollcontainer-wrapper
+  .mx-navigationtree
+  .navbar-inner
+  > ul
+  > li
+  > a {
+  height: 52px;
+  padding: 8px 0;
+  white-space: normal;
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+.mx-navigationtree .navbar-inner > ul > li > a img {
+  width: 24px;
+  height: 20px;
+  margin-right: 0px;
+}
+
+/*---Sidebar Nav Ends---*/
+
+.layout-atlas .region-topbar {
+  border-bottom: 1px solid #e5e5ea;
+}
+
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li > a,
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li > a:hover {
+  color: $gray-dark;
+}
+
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li > a.active {
+  color: #606f8a;
+  transition: color 0.3s ease, border-right 0.3s ease;
+  border-left: 3px solid $brand-primary;
+  border-radius: 2px;
+}
+
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li > a:focus,
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li > a:active {
+  outline: none;
+}
+
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li > a:hover,
+.region-sidebar .mx-navigationtree .navbar-inner > ul > li > a:active {
+  color: #606f8a;
+  background-color: #fafbfc;
+}
+.header-icons {
+  gap: 15px;
+  display: flex;
+  img {
+    height: 24px !important;
+  }
+}
+
+/* Change the scrollbar width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid,
+.mx-scrollcontainer .mx-placeholder .mx-layoutgrid-fluid {
+  padding: 17px 19px 24px 24px;
+}
+.layout-atlas .region-topbar .navbar-brand a {
+  color: #000 !important;
+}
+
+.page-head {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  .mx-text {
+    margin-bottom: 0;
+  }
+}
+/*------------------Master Layout Ends----------------------*/

@@ -1,0 +1,362 @@
+@import "../../../theme/web/custom-variables";
+
+.loginButton {
+  color: #fff;
+  border-color: #ff5a14 !important;
+  background-color: #ff5a14 !important;
+  font-size: 18px;
+}
+
+.custom-file-dropper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .filedropper__dropzone {
+    border: 2px dashed #8b93a2;
+    border-radius: 10px;
+    padding: 1em;
+    color: #606f8a;
+  }
+  img {
+    padding-top: 10px;
+  }
+  .filedropper__list {
+    display: none;
+  }
+
+  .alert-warning {
+    padding-bottom: 5px;
+    box-sizing: content-box;
+    padding-top: 5px;
+  }
+}
+.img-thumbnail-box {
+  img {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .img-del-btn {
+    .mx-icon-lined {
+      position: relative;
+      bottom: 92px;
+      left: 70px;
+      background: #fff;
+      color: rgb(37, 55, 70);
+      border: none;
+      cursor: pointer;
+      outline: none;
+      border-radius: 10px;
+      padding: 2px;
+      font-size: smaller;
+    }
+  }
+}
+
+.filter-popup {
+  padding: 28px 0px 28px 24px;
+  .form-group.no-columns:not(.label-after) {
+    width: 220px;
+  }
+  .form-control {
+    width: 220px;
+  }
+  .form-group > div[class*="col-"] {
+    max-width: 250px;
+  }
+  .filter-popup .form-control {
+    height: 42px;
+  }
+  .form-group {
+    flex-direction: column;
+  }
+  .form-group .control-label {
+    text-overflow: unset;
+    white-space: nowrap;
+    overflow: visible;
+    padding-bottom: 0px;
+    padding-top: 0px;
+  }
+}
+
+.filter-strip {
+  background: #fff;
+  border-radius: 4px;
+  padding: 4px 20px;
+  .form-control {
+    border: none;
+    background-position: calc(44% - 8px) center;
+  }
+  .mx-link {
+    color: #253746;
+    text-decoration: none;
+  }
+  .search-box {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 0 8px;
+    width: 220px;
+    .form-group.no-columns:not(.label-after) {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .form-control {
+      height: 36px;
+    }
+  }
+}
+.record-strip {
+  background: #fff;
+  border-radius: 4px;
+  padding: 20px 20px;
+  color: #8b93a2;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.mr-0-table {
+  .table {
+    margin-bottom: 0;
+  }
+}
+
+.custom {
+  .tab-like-btn {
+    text-decoration: none;
+  }
+}
+
+.enabled-btn {
+  font-weight: 700;
+  color: #253746;
+}
+
+//Author : Sahil
+.initiate-popup-header {
+  .modal-header {
+    display: none;
+  }
+}
+.initiate-drawer-page {
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 24px;
+    .mx-icon-lined {
+      color: #606f8a;
+      font-size: 22px;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 0.3px;
+    }
+    .drawer-title {
+      color: #898c9f;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 0.3px;
+    }
+  }
+  .drawer-card {
+    border-bottom: 1px solid #dfe0eb;
+    padding: 22px 0;
+    display: flex;
+    flex-direction: column;
+    .drawer-card-img {
+      width: 26px;
+    }
+    .drawer-card-title {
+      color: #253746;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 20px;
+      margin-top: 10px;
+    }
+    .drawer-card-text {
+      color: #606f8a;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 22px;
+    }
+    .drawer-btn {
+      margin-left: 0px;
+      margin-top: 10px;
+      min-width: 153px;
+    }
+  }
+}
+.dropdown-container-menu-parent {
+  .dropdown-menu {
+    width: 200px !important;
+  }
+  .glyphicon {
+    font-weight: bold;
+    color: black;
+  }
+}
+.dropdown-container-menu {
+  .dropdown-menu {
+    width: 300px !important;
+  }
+  .dropdown-toggle {
+    color: #606f8a !important;
+  }
+}
+//Author : Sahil End
+
+.filter-popup1 {
+  .mx-compound-control .btn {
+    display: none;
+  }
+  .custom-calendar {
+    display: flex;
+    .img-responsive,
+    .thumbnail > img,
+    .thumbnail a > img,
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 15px;
+      position: relative;
+      right: 35px;
+      top: 6px;
+    }
+  }
+}
+
+.custom-map-siteinfo {
+  height: 200px !important;
+}
+
+// Author Sahil
+.checkboxMargin {
+  .col-sm-offset-3 {
+    margin-left: 0 !important;
+  }
+}
+.linkUnderline {
+  text-decoration: underline;
+}
+.linkButton {
+  text-decoration: none !important;
+  color: #8b93a2 !important;
+}
+.remove-emptyfield-dropdown {
+  select > option:first-child {
+    display: none;
+  }
+}
+
+.submit-alert {
+  background: #e6f7ff;
+  padding: 16px 28px;
+}
+.remove-unknown-radiobutton {
+  .radio {
+    &:nth-child(3) {
+      display: none !important;
+    }
+  }
+}
+.accordion-fieldrunner-approval {
+  .widget-accordion-group-header-button > :is(h2) {
+    color: #606f8a !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+  }
+}
+.text-color {
+  color: #606f8a !important;
+}
+.unassign-button {
+  padding: 1.28px 12.83px 1.28px 12.83px !important;
+  border-radius: 14.75px !important;
+  background-color: #0099a8 !important;
+  color: white !important;
+  font-size: 10px !important;
+}
+.assign-button {
+  padding: 1.28px 12.83px 1.28px 12.83px !important;
+  border-radius: 14.75px !important;
+  background-color: #234aa0 !important;
+  color: white !important;
+  font-size: 10px !important;
+}
+
+//Author Sahil end
+
+//Author Ramesh
+.tawal-btn-primary-task {
+  padding: 10px 25px;
+  max-width: fit-content;
+  height: 40px;
+  margin: 0 8px 0 8px !important;
+  background: #fc4c02 !important;
+  color: #ffffff !important;
+}
+
+.SLAvalue {
+  input {
+    text-align: center;
+  }
+}
+.Exclaimation {
+  img {
+    width: 13px;
+  }
+}
+.downArrow-days {
+  position: absolute;
+  top: 13px !important;
+  left: 41px !important;
+  z-index: 1;
+}
+.downArrow-hours {
+  position: absolute;
+  top: 13px !important;
+  left: 46px !important;
+  z-index: 1;
+}
+.downArrow-minutes {
+  position: absolute;
+  top: 13px !important;
+  left: 57px !important;
+  z-index: 1;
+}
+.downArrow-days-es {
+  position: absolute;
+  top: 15px !important;
+  left: 66px !important;
+  z-index: 1;
+}
+.downArrow-hours-es {
+  position: absolute;
+  top: 15px !important;
+  left: 72px !important;
+  z-index: 1;
+}
+.downArrow-minutes-es {
+  position: absolute;
+  top: 15px !important;
+  left: 82px !important;
+  z-index: 1;
+}
+.hovermessage .widget-tooltip-content {
+  font-size: 11px !important;
+  font-weight: 500 !important;
+}
+.radio-custom .radio label {
+  padding-top: 2px;
+}
+
+//End Author Ramesh
+
+//Author vijaya
+.filenamedownload {
+  color: #253746 !important;
+}
+
+// END Author vijaya
